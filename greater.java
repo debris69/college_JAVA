@@ -1,5 +1,5 @@
 import java.lang.*;
-public class greater
+public class Greater
 {
 	public static void main (String args[])
 	{
