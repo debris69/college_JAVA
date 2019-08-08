@@ -19,11 +19,19 @@ class method{
 		return fact;
 
 	}
+
+	public static int factorial_recursive (int a){
+
+		if(a>=1)
+			return a*factorial_recursive(a-1);
+		else
+			return 1;
+	}
 }
 
 class Factorial_operation{
 	public static void main(String args[]){
 		int x= 5;
-		System.out.print("factorial of "+x+" is "+method.factorial(x)+"\n");
+		System.out.print("factorial of "+x+" is "+method.factorial_recursive(x)+"\n");
 	}
 }
