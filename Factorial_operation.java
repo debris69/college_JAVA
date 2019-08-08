@@ -1,5 +1,5 @@
 //create a class for method to calculate factorial.
-
+import java.util.Scanner;
 class method{
 	public static int factorial(int a){
 
@@ -31,7 +31,9 @@ class method{
 
 class Factorial_operation{
 	public static void main(String args[]){
-		int x= 5;
+		Scanner in = new Scanner(System.in);
+		System.out.print("Enter an integer:");
+		int x= in.nextInt();
 		System.out.print("factorial of "+x+" is "+method.factorial_recursive(x)+"\n");
 	}
 }
