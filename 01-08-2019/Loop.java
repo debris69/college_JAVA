@@ -6,7 +6,6 @@ public class Loop{
 
 		for(int i=1 ; i < 11 ; i++){
 			System.out.print("BCA \n");
-
 		}
 
 	}
