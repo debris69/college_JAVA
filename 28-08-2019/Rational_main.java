@@ -67,12 +67,12 @@ class Rational_main{
     Rational x =new Rational();
     Rational y =new Rational();
     Rational z =new Rational();
-    x.getRational(2,4);
+    x.getRational(2,4); System.out.print("\n X = ");
     x.showRational();
-    y.getRational(3,6);
+    y.getRational(3,6); System.out.print("\n Y = ");
     y.showRational();
 
-    z = Rational.addRational(x,y);
+    z = Rational.addRational(x,y); System.out.print("\n Z = ");
     z.showRational();
   }
 }
