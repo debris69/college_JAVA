@@ -9,16 +9,16 @@ class MyFrame extends Frame implements ActionListener{
 
   MyFrame(){
     setTitle("Add operation");
-    setSize(600,600);
+    setSize(600,200);
     setVisible(true);
     setBackground(Color.cyan);
-    setLayout(new FlowLayout());
+    setLayout(new GridLayout());
     addWindowListener(new Win());
     add(t1);add(t2);add(b1);add(l1);
-    t1.setBounds(150,100, 200,30);
-    t2.setBounds(150,150, 200,30);
-    b1.setBounds(150,200, 200,30);
-    l1.setBounds(150,250, 200,30);
+    //t1.setBounds(150,100, 200,30);
+    //t2.setBounds(200,200, 250,60);
+    //b1.setBounds(250,300, 300,90);
+    //l1.setBounds(300,400, 350,120);
     b1.addActionListener(this);
   }
 
